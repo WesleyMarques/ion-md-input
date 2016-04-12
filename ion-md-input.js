@@ -17,7 +17,7 @@ angular.module('ionMdInput', [])
       if (!attr.highlightcolor) {
         highlightColor = 'calm';
       } else {
-        highlightColor = attr.highlightcolor;
+        highlightColor = attr.highlightcolor; 
       }
       highlight.className += ' highlight-' + highlightColor;
 
